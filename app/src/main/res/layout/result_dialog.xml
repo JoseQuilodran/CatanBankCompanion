@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:background="#F65E2F">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:background="#E1DCDC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:background="#971B12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:background="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/p4a"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toStartOf="@+id/p3a"
+        app:layout_constraintTop_toBottomOf="@+id/p3a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text4b"
+        android:layout_width="52dp"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p4b"
+        app:layout_constraintStart_toEndOf="@+id/p4b" />
+
+    <ImageView
+        android:id="@+id/p4b"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="92dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toEndOf="@+id/p4a"
+        app:layout_constraintTop_toTopOf="@+id/p4a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text4a"
+        android:layout_width="61dp"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p4a"
+        app:layout_constraintStart_toEndOf="@+id/p4a" />
+
+    <ImageView
+        android:id="@+id/p2b"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="92dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toStartOf="@+id/text2a"
+        app:layout_constraintTop_toTopOf="@+id/p2a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text3b"
+        android:layout_width="52dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p3b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/p3b" />
+
+    <ImageView
+        android:id="@+id/p3b"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="92dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toEndOf="@+id/p3a"
+        app:layout_constraintTop_toTopOf="@+id/p3a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text2b"
+        android:layout_width="54dp"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p2b"
+        app:layout_constraintStart_toEndOf="@+id/p2b" />
+
+    <ImageView
+        android:id="@+id/p2a"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toStartOf="@+id/p1a"
+        app:layout_constraintTop_toBottomOf="@+id/p1a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text3a"
+        android:layout_width="59dp"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p3a"
+        app:layout_constraintStart_toEndOf="@+id/p3a" />
+
+    <ImageView
+        android:id="@+id/p3a"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toStartOf="@+id/p2a"
+        app:layout_constraintTop_toBottomOf="@+id/p2a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text2a"
+        android:layout_width="54dp"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p2a"
+        app:layout_constraintStart_toEndOf="@+id/p2a" />
+
+    <ImageView
+        android:id="@+id/p1a"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/p1b"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="92dp"
+        android:background="@drawable/ccardsheep"
+        app:layout_constraintStart_toEndOf="@+id/p1a"
+        app:layout_constraintTop_toTopOf="@+id/p1a"
+        app:srcCompat="@null" />
+
+    <EditText
+        android:id="@+id/text1b"
+        android:layout_width="56dp"
+        android:layout_height="89dp"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p1b"
+        app:layout_constraintStart_toEndOf="@+id/p1b" />
+
+    <EditText
+        android:id="@+id/text1a"
+        android:layout_width="65dp"
+        android:layout_height="90dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/press_start_2p"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/p1a"
+        app:layout_constraintStart_toEndOf="@+id/p1a" />
+
+    <TextView
+        android:id="@+id/titlet"
+        android:layout_width="215dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

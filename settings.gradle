@@ -1,0 +1,2 @@
+rootProject.name='Catan Bank Companion'
+include ':app'
